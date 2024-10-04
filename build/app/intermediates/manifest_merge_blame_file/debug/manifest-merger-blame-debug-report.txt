@@ -1,0 +1,251 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.asar"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <!-- Required permission -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\debug\AndroidManifest.xml:36:5-67
+12-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\debug\AndroidManifest.xml:36:22-64
+13    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+13-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\main\AndroidManifest.xml:2:5-70
+13-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\main\AndroidManifest.xml:2:22-68
+14    <uses-permission android:name="android.permission.CALL_PHONE" />
+14-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\debug\AndroidManifest.xml:38:5-69
+14-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\debug\AndroidManifest.xml:38:22-66
+15    <!-- Query intent for text processing -->
+16    <queries>
+16-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\main\AndroidManifest.xml:47:5-52:15
+17        <intent>
+17-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\main\AndroidManifest.xml:48:9-51:18
+18            <action android:name="android.intent.action.PROCESS_TEXT" />
+18-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\main\AndroidManifest.xml:49:13-72
+18-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\main\AndroidManifest.xml:49:21-70
+19
+20            <data android:mimeType="text/plain" />
+20-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\main\AndroidManifest.xml:50:13-50
+20-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\main\AndroidManifest.xml:50:19-48
+21        </intent>
+22        <intent>
+22-->[androidx.media:media:1.4.1] C:\Users\rishi\.gradle\caches\8.9\transforms\fe930b37687a2345f2cba5046c94c646\transformed\media-1.4.1\AndroidManifest.xml:25:9-27:18
+23            <action android:name="android.media.browse.MediaBrowserService" />
+23-->[androidx.media:media:1.4.1] C:\Users\rishi\.gradle\caches\8.9\transforms\fe930b37687a2345f2cba5046c94c646\transformed\media-1.4.1\AndroidManifest.xml:26:13-79
+23-->[androidx.media:media:1.4.1] C:\Users\rishi\.gradle\caches\8.9\transforms\fe930b37687a2345f2cba5046c94c646\transformed\media-1.4.1\AndroidManifest.xml:26:21-76
+24        </intent>
+25    </queries>
+26
+27    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+27-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\main\AndroidManifest.xml:3:5-80
+27-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\main\AndroidManifest.xml:3:22-78
+28    <uses-permission android:name="android.permission.SEND_SMS" />
+28-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\main\AndroidManifest.xml:5:5-67
+28-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\main\AndroidManifest.xml:5:22-64
+29    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+29-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\main\AndroidManifest.xml:6:5-81
+29-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\main\AndroidManifest.xml:6:22-78
+30    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- If background location access is required -->
+30-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\main\AndroidManifest.xml:7:5-79
+30-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\main\AndroidManifest.xml:7:22-76
+31    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+31-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\main\AndroidManifest.xml:10:5-85
+31-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\main\AndroidManifest.xml:10:22-82
+32    <uses-permission android:name="android.permission.BLUETOOTH" />
+32-->[com.github.canardoux:flutter_sound_core:9.15.61] C:\Users\rishi\.gradle\caches\8.9\transforms\dffbb3c7680b111ca0f5cb42da4d503b\transformed\jetified-flutter_sound_core-9.15.61\AndroidManifest.xml:7:5-68
+32-->[com.github.canardoux:flutter_sound_core:9.15.61] C:\Users\rishi\.gradle\caches\8.9\transforms\dffbb3c7680b111ca0f5cb42da4d503b\transformed\jetified-flutter_sound_core-9.15.61\AndroidManifest.xml:7:22-65
+33    <uses-permission android:name="android.permission.WAKE_LOCK" />
+33-->[com.github.canardoux:flutter_sound_core:9.15.61] C:\Users\rishi\.gradle\caches\8.9\transforms\dffbb3c7680b111ca0f5cb42da4d503b\transformed\jetified-flutter_sound_core-9.15.61\AndroidManifest.xml:8:5-68
+33-->[com.github.canardoux:flutter_sound_core:9.15.61] C:\Users\rishi\.gradle\caches\8.9\transforms\dffbb3c7680b111ca0f5cb42da4d503b\transformed\jetified-flutter_sound_core-9.15.61\AndroidManifest.xml:8:22-65
+34    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+34-->[com.github.canardoux:flutter_sound_core:9.15.61] C:\Users\rishi\.gradle\caches\8.9\transforms\dffbb3c7680b111ca0f5cb42da4d503b\transformed\jetified-flutter_sound_core-9.15.61\AndroidManifest.xml:9:5-80
+34-->[com.github.canardoux:flutter_sound_core:9.15.61] C:\Users\rishi\.gradle\caches\8.9\transforms\dffbb3c7680b111ca0f5cb42da4d503b\transformed\jetified-flutter_sound_core-9.15.61\AndroidManifest.xml:9:22-77
+35    <uses-permission android:name="Manifest.permission.CAPTURE_AUDIO_OUTPUT" />
+35-->[com.github.canardoux:flutter_sound_core:9.15.61] C:\Users\rishi\.gradle\caches\8.9\transforms\dffbb3c7680b111ca0f5cb42da4d503b\transformed\jetified-flutter_sound_core-9.15.61\AndroidManifest.xml:11:5-80
+35-->[com.github.canardoux:flutter_sound_core:9.15.61] C:\Users\rishi\.gradle\caches\8.9\transforms\dffbb3c7680b111ca0f5cb42da4d503b\transformed\jetified-flutter_sound_core-9.15.61\AndroidManifest.xml:11:22-77
+36
+37    <permission
+37-->[androidx.core:core:1.13.1] C:\Users\rishi\.gradle\caches\8.9\transforms\69f4fe4b32577b920c530beceab78d05\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+38        android:name="com.example.asar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+38-->[androidx.core:core:1.13.1] C:\Users\rishi\.gradle\caches\8.9\transforms\69f4fe4b32577b920c530beceab78d05\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+39        android:protectionLevel="signature" />
+39-->[androidx.core:core:1.13.1] C:\Users\rishi\.gradle\caches\8.9\transforms\69f4fe4b32577b920c530beceab78d05\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+40
+41    <uses-permission android:name="com.example.asar.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+41-->[androidx.core:core:1.13.1] C:\Users\rishi\.gradle\caches\8.9\transforms\69f4fe4b32577b920c530beceab78d05\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+41-->[androidx.core:core:1.13.1] C:\Users\rishi\.gradle\caches\8.9\transforms\69f4fe4b32577b920c530beceab78d05\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+42
+43    <application
+44        android:name="android.app.Application"
+44-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\main\AndroidManifest.xml:13:9-42
+45        android:allowBackup="true"
+45-->[com.github.jitpack:android-example:1.0.1] C:\Users\rishi\.gradle\caches\8.9\transforms\100de277040cd310adf145f8f69cbe32\transformed\jetified-android-example-1.0.1\AndroidManifest.xml:12:9-35
+46        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+46-->[androidx.core:core:1.13.1] C:\Users\rishi\.gradle\caches\8.9\transforms\69f4fe4b32577b920c530beceab78d05\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+47        android:debuggable="true"
+48        android:extractNativeLibs="true"
+49        android:icon="@mipmap/ic_launcher"
+49-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\debug\AndroidManifest.xml:7:9-43
+50        android:label="asar"
+50-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\debug\AndroidManifest.xml:6:9-29
+51        android:theme="@style/AppTheme" >
+51-->[com.github.jitpack:android-example:1.0.1] C:\Users\rishi\.gradle\caches\8.9\transforms\100de277040cd310adf145f8f69cbe32\transformed\jetified-android-example-1.0.1\AndroidManifest.xml:15:9-40
+52        <activity
+52-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\debug\AndroidManifest.xml:9:9-27:20
+53            android:name="com.example.asar.MainActivity"
+53-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\debug\AndroidManifest.xml:10:13-41
+54            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+54-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\debug\AndroidManifest.xml:15:13-163
+55            android:exported="true"
+55-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\debug\AndroidManifest.xml:11:13-36
+56            android:hardwareAccelerated="true"
+56-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\debug\AndroidManifest.xml:16:13-47
+57            android:launchMode="singleTop"
+57-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\debug\AndroidManifest.xml:12:13-43
+58            android:taskAffinity=""
+58-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\debug\AndroidManifest.xml:13:13-36
+59            android:theme="@style/LaunchTheme"
+59-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\debug\AndroidManifest.xml:14:13-47
+60            android:windowSoftInputMode="adjustResize" >
+60-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\debug\AndroidManifest.xml:17:13-55
+61            <meta-data
+61-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\debug\AndroidManifest.xml:19:13-21:57
+62                android:name="io.flutter.embedding.android.NormalTheme"
+62-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\debug\AndroidManifest.xml:20:17-72
+63                android:resource="@style/NormalTheme" />
+63-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\debug\AndroidManifest.xml:21:17-54
+64
+65            <intent-filter>
+65-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\debug\AndroidManifest.xml:23:13-26:29
+66                <action android:name="android.intent.action.MAIN" />
+66-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\debug\AndroidManifest.xml:24:17-69
+66-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\debug\AndroidManifest.xml:24:25-66
+67
+68                <category android:name="android.intent.category.LAUNCHER" />
+68-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\debug\AndroidManifest.xml:25:17-77
+68-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\debug\AndroidManifest.xml:25:27-74
+69            </intent-filter>
+70        </activity>
+71
+72        <!-- Don't delete this meta-data below. It is used by Flutter tooling -->
+73        <meta-data
+73-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\debug\AndroidManifest.xml:30:9-32:33
+74            android:name="flutterEmbedding"
+74-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\debug\AndroidManifest.xml:31:13-44
+75            android:value="2" />
+75-->C:\Users\rishi\Desktop\AppDev\flutter\asar\android\app\src\debug\AndroidManifest.xml:32:13-30
+76
+77        <service
+77-->[:geolocator_android] C:\Users\rishi\Desktop\AppDev\flutter\asar\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-12:56
+78            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+78-->[:geolocator_android] C:\Users\rishi\Desktop\AppDev\flutter\asar\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-77
+79            android:enabled="true"
+79-->[:geolocator_android] C:\Users\rishi\Desktop\AppDev\flutter\asar\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-35
+80            android:exported="false"
+80-->[:geolocator_android] C:\Users\rishi\Desktop\AppDev\flutter\asar\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-37
+81            android:foregroundServiceType="location" />
+81-->[:geolocator_android] C:\Users\rishi\Desktop\AppDev\flutter\asar\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-53
+82
+83        <activity
+83-->[:url_launcher_android] C:\Users\rishi\Desktop\AppDev\flutter\asar\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:8:9-11:74
+84            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+84-->[:url_launcher_android] C:\Users\rishi\Desktop\AppDev\flutter\asar\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:13-74
+85            android:exported="false"
+85-->[:url_launcher_android] C:\Users\rishi\Desktop\AppDev\flutter\asar\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:13-37
+86            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+86-->[:url_launcher_android] C:\Users\rishi\Desktop\AppDev\flutter\asar\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-71
+87
+88        <uses-library
+88-->[androidx.window:window:1.2.0] C:\Users\rishi\.gradle\caches\8.9\transforms\312dd9497352b98cf3190688da073091\transformed\jetified-window-1.2.0\AndroidManifest.xml:23:9-25:40
+89            android:name="androidx.window.extensions"
+89-->[androidx.window:window:1.2.0] C:\Users\rishi\.gradle\caches\8.9\transforms\312dd9497352b98cf3190688da073091\transformed\jetified-window-1.2.0\AndroidManifest.xml:24:13-54
+90            android:required="false" />
+90-->[androidx.window:window:1.2.0] C:\Users\rishi\.gradle\caches\8.9\transforms\312dd9497352b98cf3190688da073091\transformed\jetified-window-1.2.0\AndroidManifest.xml:25:13-37
+91        <uses-library
+91-->[androidx.window:window:1.2.0] C:\Users\rishi\.gradle\caches\8.9\transforms\312dd9497352b98cf3190688da073091\transformed\jetified-window-1.2.0\AndroidManifest.xml:26:9-28:40
+92            android:name="androidx.window.sidecar"
+92-->[androidx.window:window:1.2.0] C:\Users\rishi\.gradle\caches\8.9\transforms\312dd9497352b98cf3190688da073091\transformed\jetified-window-1.2.0\AndroidManifest.xml:27:13-51
+93            android:required="false" />
+93-->[androidx.window:window:1.2.0] C:\Users\rishi\.gradle\caches\8.9\transforms\312dd9497352b98cf3190688da073091\transformed\jetified-window-1.2.0\AndroidManifest.xml:28:13-37
+94
+95        <activity
+95-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\rishi\.gradle\caches\8.9\transforms\59b0217d2395d91d5d3d2567e5c5613a\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:9-22:45
+96            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+96-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\rishi\.gradle\caches\8.9\transforms\59b0217d2395d91d5d3d2567e5c5613a\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:20:19-85
+97            android:exported="false"
+97-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\rishi\.gradle\caches\8.9\transforms\59b0217d2395d91d5d3d2567e5c5613a\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:22:19-43
+98            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+98-->[com.google.android.gms:play-services-base:18.3.0] C:\Users\rishi\.gradle\caches\8.9\transforms\59b0217d2395d91d5d3d2567e5c5613a\transformed\jetified-play-services-base-18.3.0\AndroidManifest.xml:21:19-78
+99
+100        <meta-data
+100-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\rishi\.gradle\caches\8.9\transforms\569c06c68838746fbcb790a5965e4cd0\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+101            android:name="com.google.android.gms.version"
+101-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\rishi\.gradle\caches\8.9\transforms\569c06c68838746fbcb790a5965e4cd0\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+102            android:value="@integer/google_play_services_version" />
+102-->[com.google.android.gms:play-services-basement:18.3.0] C:\Users\rishi\.gradle\caches\8.9\transforms\569c06c68838746fbcb790a5965e4cd0\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+103
+104        <provider
+104-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\rishi\.gradle\caches\8.9\transforms\761e086e4b97bd5c4bc182ff94a94c72\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:24:9-32:20
+105            android:name="androidx.startup.InitializationProvider"
+105-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\rishi\.gradle\caches\8.9\transforms\761e086e4b97bd5c4bc182ff94a94c72\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:25:13-67
+106            android:authorities="com.example.asar.androidx-startup"
+106-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\rishi\.gradle\caches\8.9\transforms\761e086e4b97bd5c4bc182ff94a94c72\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:26:13-68
+107            android:exported="false" >
+107-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\rishi\.gradle\caches\8.9\transforms\761e086e4b97bd5c4bc182ff94a94c72\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:27:13-37
+108            <meta-data
+108-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\rishi\.gradle\caches\8.9\transforms\761e086e4b97bd5c4bc182ff94a94c72\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+109                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+109-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\rishi\.gradle\caches\8.9\transforms\761e086e4b97bd5c4bc182ff94a94c72\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+110                android:value="androidx.startup" />
+110-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\rishi\.gradle\caches\8.9\transforms\761e086e4b97bd5c4bc182ff94a94c72\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+111            <meta-data
+111-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rishi\.gradle\caches\8.9\transforms\89d51417f3184ef54e1e9396a7d785b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+112                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+112-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rishi\.gradle\caches\8.9\transforms\89d51417f3184ef54e1e9396a7d785b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+113                android:value="androidx.startup" />
+113-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rishi\.gradle\caches\8.9\transforms\89d51417f3184ef54e1e9396a7d785b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+114        </provider>
+115
+116        <receiver
+116-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rishi\.gradle\caches\8.9\transforms\89d51417f3184ef54e1e9396a7d785b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+117            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+117-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rishi\.gradle\caches\8.9\transforms\89d51417f3184ef54e1e9396a7d785b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+118            android:directBootAware="false"
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rishi\.gradle\caches\8.9\transforms\89d51417f3184ef54e1e9396a7d785b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+119            android:enabled="true"
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rishi\.gradle\caches\8.9\transforms\89d51417f3184ef54e1e9396a7d785b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+120            android:exported="true"
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rishi\.gradle\caches\8.9\transforms\89d51417f3184ef54e1e9396a7d785b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+121            android:permission="android.permission.DUMP" >
+121-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rishi\.gradle\caches\8.9\transforms\89d51417f3184ef54e1e9396a7d785b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+122            <intent-filter>
+122-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rishi\.gradle\caches\8.9\transforms\89d51417f3184ef54e1e9396a7d785b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+123                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rishi\.gradle\caches\8.9\transforms\89d51417f3184ef54e1e9396a7d785b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+123-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rishi\.gradle\caches\8.9\transforms\89d51417f3184ef54e1e9396a7d785b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+124            </intent-filter>
+125            <intent-filter>
+125-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rishi\.gradle\caches\8.9\transforms\89d51417f3184ef54e1e9396a7d785b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+126                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rishi\.gradle\caches\8.9\transforms\89d51417f3184ef54e1e9396a7d785b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+126-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rishi\.gradle\caches\8.9\transforms\89d51417f3184ef54e1e9396a7d785b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+127            </intent-filter>
+128            <intent-filter>
+128-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rishi\.gradle\caches\8.9\transforms\89d51417f3184ef54e1e9396a7d785b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+129                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+129-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rishi\.gradle\caches\8.9\transforms\89d51417f3184ef54e1e9396a7d785b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+129-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rishi\.gradle\caches\8.9\transforms\89d51417f3184ef54e1e9396a7d785b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+130            </intent-filter>
+131            <intent-filter>
+131-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rishi\.gradle\caches\8.9\transforms\89d51417f3184ef54e1e9396a7d785b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+132                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+132-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rishi\.gradle\caches\8.9\transforms\89d51417f3184ef54e1e9396a7d785b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+132-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\rishi\.gradle\caches\8.9\transforms\89d51417f3184ef54e1e9396a7d785b8\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+133            </intent-filter>
+134        </receiver>
+135    </application>
+136
+137</manifest>
