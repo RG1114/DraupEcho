@@ -20,8 +20,8 @@ DraupECHO is an innovative system designed to detect dangerous situations throug
 
 
 # Dependencies
-<li>TensorFlow
-Librosa
-Soundfile
-Twilio API (for SMS notifications)
-Geolocation API</li>
+<li>TensorFlow</li>
+<li>Librosa</li>
+<li>Soundfile</li>
+<li>Twilio API (for SMS notifications)</li>
+<li>Geolocation API</li>
