@@ -14,8 +14,8 @@ DraupECHO is an innovative system designed to detect dangerous situations throug
 <li><b>Emergency SMS Alerts:</b> Sends automated SMS notifications to designated contacts upon detecting potential danger, ensuring timely response.</li>
 
 # Project Structure
-<li> **models/**: Contains model files for audio analysis and sentiment analysis.</li>
-<li> **notebooks/**: Scripts for converting audio to text using speech recognition libraries.</li>
+- **models/**: Contains model files for audio analysis and sentiment analysis. [View models](./models)
+- **notebooks/**: Contains notebooks for audio analysis and text analysis. [View notebooks](./notebooks)
 
 
 
