@@ -12,6 +12,7 @@ DraupECHO is an innovative system designed to detect dangerous situations throug
 <li><b>Sentiment Analysis on Text:</b> Analyzes the sentiment of the text to further detect danger.</li>
 <li><b>Comprehensive Danger Detection:</b> Combines both tone and textual analysis for more accurate danger detection.</li>
 <li><b>Emergency SMS Alerts:</b> Sends automated SMS notifications to designated contacts upon detecting potential danger, ensuring timely response.</li>
+<li><b>Location Tracking:</b> Captures and sends the user’s location along with the SMS alert, providing emergency contacts with crucial information.</li>
 
 # Project Structure
 - **models/**: Contains model files for audio analysis and sentiment analysis. [View models](./models)
