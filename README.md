@@ -19,4 +19,9 @@ DraupECHO is an innovative system designed to detect dangerous situations throug
 - **notebooks/**: Contains notebooks for audio analysis and text analysis. [View notebooks](./notebooks)
 
 
-
+# Dependencies
+<li>TensorFlow
+Librosa
+Soundfile
+Twilio API (for SMS notifications)
+Geolocation API</li>
