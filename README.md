@@ -25,5 +25,7 @@ DraupECHO is an innovative system designed to detect dangerous situations throug
 <li>Soundfile</li>
 <li>Twilio API (for SMS notifications)</li>
 <li>Geolocation API</li>
-![app](https://github.com/user-attachments/assets/cd413b42-cdfc-4afd-a1ef-00289a24b1af)
+
+![Alt text](app.jpg)
+
 
