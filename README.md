@@ -17,6 +17,7 @@ DraupECHO is an innovative system designed to detect dangerous situations throug
 # Project Structure
 - **models/**: Contains model files for audio analysis and sentiment analysis. [View models](./models)
 - **notebooks/**: Contains notebooks for audio analysis and text analysis. [View notebooks](./notebooks)
+- **scripts/**: Contains scripts for audio classification,speech to text conversion and text classification. [View scripts](./scripts)
 
 
 # Dependencies
